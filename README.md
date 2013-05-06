@@ -1,6 +1,7 @@
 # _Network Tester_
 
-_Description: This app simply responds to every web request with details about that request._
+_Description:_ This app simply responds to every web request with details about that request.
+_Purpose:_ This goal of this app is to aid in the testing of HTTP clients.
 
 ## API Reference
 
@@ -34,6 +35,14 @@ Current project is configured for deployment on Heroku (using Ruby 2.0 + Unicorn
 
 - HTTP Auth handling
 - Tests
+
+## Contributing
+
+1. Fork it
+1. Create your feature branch (`git checkout -b my-new-feature`)
+1. Commit your changes (`git commit -am 'Add some feature'`)
+1. Push to the branch (`git push origin my-new-feature`)
+1. Create new Pull Request
 
 ## License
 
