@@ -70,6 +70,16 @@ options '/*' do
   response_json(request)
 end
 
+link '/*' do
+  status 200 
+  response_json(request)
+end
+
+unlink '/*' do
+  status 200 
+  response_json(request)
+end
+
 head '/*' do
   status 200 
   response_json(request)
